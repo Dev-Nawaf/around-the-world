@@ -39,22 +39,10 @@ git clone https://github.com/Dev-Nawaf/around-the-world.git
 npm install
 ```
 
-or
-
-```bash
-yarn install
-```
-
 ### Step 3: Start the Development Server
 
 ```bash
 npm run dev
-```
-
-or
-
-```bash
-yarn dev
 ```
 
 ### Step 4: Open the Application in Your Browser
