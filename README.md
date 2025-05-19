@@ -1,29 +1,28 @@
 # Around the World
 
-## Project Overview
+## 🌍 About
 
-Around the World is a React application built with Vite, utilizing React Router for routing and Tailwind CSS for styling. The project aims to provide a comprehensive and interactive way to explore countries and their respective information.
+**Around the World** is an interactive web application that provides detailed information about countries from all around the globe. Built using **React**, **Vite**, and **Tailwind CSS**, this project showcases modern frontend development practices.
 
-## Features
+### ✨ Features
 
-### Country List
+- 🌐 Browse countries with flags and names
+- 🔍 Search countries by name
+- 🗺️ View detailed information: population, region, subregion, capital, and more
+- 💡 Responsive and user-friendly design
 
-- A list of countries with their respective flags, names, and capitals.
+This project was created to practice building a **Single Page Application (SPA)** using React Router and Tailwind CSS, focusing on clean UI/UX and efficient data rendering.
 
-### Search Input
+### 🚀 Technologies Used
 
-- A search bar that allows users to filter countries by name.
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- REST Countries API
 
-### Country Details
+---
 
-- A detailed view of each country, including its population, region, and subregion.
-
-## Technologies Used
-
-- **React**: A JavaScript library for building user interfaces.
-- **Vite**: A development server and build tool.
-- **React Router**: A library for managing client-side routing.
-- **Tailwind CSS**: A utility-first CSS framework for styling.
 
 ## Getting Started
 
@@ -45,8 +44,8 @@ npm install
 npm run dev
 ```
 
-### Step 4: Open the Application in Your Browser
+### Step 4: Open the Application in Your Browser With given URL like:
 
 ```bash
-http://localhost:3000
+http://localhost:0000
 ```
