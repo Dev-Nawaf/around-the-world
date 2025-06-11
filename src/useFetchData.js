@@ -15,7 +15,7 @@ export const useFetchData = (country) => {
   }, []);
 
   const fetchDataFromAPI = () => {
-    let url = `https://restcountries.com/v3.1/all`;
+    let url = `https://restcountries.com/v3.1/all?fields=name,population,region,capital,flags`;
     setIsLoading(true);
 
     if (country) {
@@ -53,6 +53,17 @@ export const useFetchData = (country) => {
       setResult(data);
       setFilterCountriesList(data);
     } else {
+      fetchDataFromAPI();
+    }
+
+    if (
+      data?.status === 400 ||
+      data?.status === 404 ||
+      data?.status === 500 ||
+      data?.status === 401 ||
+      data?.status === 403 ||
+      data?.status === 429
+    ) {
       fetchDataFromAPI();
     }
   };
